@@ -1,0 +1,1 @@
+[![Netlify Status](https://api.netlify.com/api/v1/badges/47eb84eb-1ec8-4332-9d01-fe45863a076d/deploy-status)](https://app.netlify.com/sites/restaurants-api/deploys)
