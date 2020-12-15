@@ -4,3 +4,7 @@
 [[redirects]]
   from = "/api/*"
   to = "/.netlify/functions/:splat"
+
+[[redirects]]
+  from = "https://restaurants-api.netlify.app/.netlify/functions/:splat"
+  to = "https://abdirahman.xyz/api/:splat"
