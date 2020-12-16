@@ -29,15 +29,20 @@ const server = new ApolloServer({
   introspection: true,
 });
 
-server.applyMiddleware({
-  app,
+// server.applyMiddleware({
+//   app,
+//   cors: {
+//     origin: '*',
+//     credentials: true,
+//   },
+// });
+
+exports.handler = server.createHandler({
   cors: {
     origin: '*',
     credentials: true,
   },
 });
-
-exports.handler = server.createHandler();
 
 // app.listen(PORT, () => {
 //   console.log(`Server listening on http://localhost:${PORT}`);
