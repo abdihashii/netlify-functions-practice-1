@@ -1,9 +1,8 @@
 const express = require('express');
 const bodyParser = require('body-parser');
 const cors = require('cors');
-// const { ApolloServer } = require('apollo-server-express');
-const { makeExecutableSchema } = require('graphql-tools');
-const { ApolloServer } = require('apollo-server-lambda');
+const { ApolloServer } = require('apollo-server-express');
+// const { ApolloServer } = require('apollo-server-lambda');
 
 // Schema
 const typeDefs = require('../graphql/schema');
